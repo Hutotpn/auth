@@ -1,5 +1,9 @@
-import Image from "next/image";
+import { AuthCard } from "@/components/auth-card";
 
 export default function Home() {
-  return <h1>coming soon</h1>;
+  return (
+    <main className="mx-auto flex min-h-screen w-full max-w-4xl items-center justify-center p-6">
+      <AuthCard />
+    </main>
+  );
 }
